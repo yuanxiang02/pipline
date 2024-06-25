@@ -1,0 +1,16 @@
+#MS COCO 2017 Version
+
+url:
+  data: http://images.cocodataset.org/zips/test2017.zip
+  annotation: http://images.cocodataset.org/annotations/image_info_test2017.zip
+
+task:
+  - instances
+  - captions
+  - person_keypoints
+  - stuff_segmentation
+  - panoptic_segmentation
+  - classification
+
+method:
+  -upload file
