@@ -17,9 +17,6 @@ class DatasetLoader:
         except Exception as e:
             print(f"An error occurred while loading datasets")
 
-    def load_from_url(self,image_zip_url,annotations_zip_url):
-
-
     def get_example(self, index=0):
         if self.dataset:
             return self.dataset[index]

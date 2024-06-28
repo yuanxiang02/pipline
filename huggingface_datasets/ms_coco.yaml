@@ -13,4 +13,8 @@ task:
   - classification
 
 method:
-  -upload file
+  -detection server:https://competitions.codalab.org/competitions/5181
+  -keypoints server:https://competitions.codalab.org/competitions/12061
+  -stuff server:https://competitions.codalab.org/competitions/19472
+  -panoptic server:https://competitions.codalab.org/competitions/19507
+  -DensePose server:https://competitions.codalab.org/competitions/20660
